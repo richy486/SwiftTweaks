@@ -1,4 +1,4 @@
 language: objective-c
 osx_image: xcode7.3
 script:
-  - xctool -project SwiftTweaks.xcodeproj -scheme SwiftTweaks -configuration Release test
+  - xctool -project SwiftTweaks.xcodeproj -scheme SwiftTweaks -configuration Debug test
